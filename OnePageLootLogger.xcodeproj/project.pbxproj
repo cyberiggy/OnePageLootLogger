@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E482775D274F322A008F3262 /* OnePageLootLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482775C274F322A008F3262 /* OnePageLootLoggerApp.swift */; };
-		E482775F274F322A008F3262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482775E274F322A008F3262 /* ContentView.swift */; };
 		E4827761274F322B008F3262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4827760274F322B008F3262 /* Assets.xcassets */; };
 		E4827764274F322B008F3262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4827763274F322B008F3262 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		E4827759274F322A008F3262 /* OnePageLootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePageLootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E482775C274F322A008F3262 /* OnePageLootLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageLootLoggerApp.swift; sourceTree = "<group>"; };
-		E482775E274F322A008F3262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4827760274F322B008F3262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4827763274F322B008F3262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				E482775C274F322A008F3262 /* OnePageLootLoggerApp.swift */,
-				E482775E274F322A008F3262 /* ContentView.swift */,
 				E4827760274F322B008F3262 /* Assets.xcassets */,
 				E4827762274F322B008F3262 /* Preview Content */,
 			);
@@ -137,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E482775F274F322A008F3262 /* ContentView.swift in Sources */,
 				E482775D274F322A008F3262 /* OnePageLootLoggerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +273,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
